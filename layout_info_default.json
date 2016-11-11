@@ -1,0 +1,386 @@
+{
+    "version": "v0.0",
+    "day_variables": [
+                      {
+                      "name": "Observer name",
+                      "Type": [
+                               {
+                               "name": "Winnie"
+                               },
+                               {
+                               "name": "Neetha"
+                               },
+                               {
+                               "name": "Damien"
+                               },
+                               {
+                               "name": "Julio"
+                               },
+                               {
+                               "name": "Margaret"
+                               },
+                               {
+                               "name": "Urbain"
+                               },
+                               {
+                               "name": "Rebecca"
+                               },
+                               {
+                               "name": "Oscar"
+                               },
+                               {
+                               "name": "Reggie"
+                               }
+                               ]
+                      },
+                      {
+                      "name": "Observer type",
+                      "Type": [
+                               {
+                               "name": "Research assistant"
+                               },
+                               {
+                               "name": "Researcher"
+                               },
+                               {
+                               "name": "Student"
+                               },
+                               {
+                               "name": "Data technician"
+                               }
+                               ]
+                      }
+                      ],
+    "focal_variables": [
+                        {
+                        "name": "Data usage",
+                        "Usage": [
+                                  {
+                                  "name": "Research"
+                                  },
+                                  {
+                                  "name": "Training"
+                                  },
+                                  {
+                                  "name": "Reliability test"
+                                  }
+                                  ]
+                        }
+                        ],
+    "pin_codes": {
+        "1111": "Winnie",
+        "2222": "Neetha",
+        "3333": "Damien",
+        "4444": "Julio",
+        "5555": "Margaret",
+        "6666": "Urbain",
+        "7777": "Rebecca",
+        "8888": "Oscar",
+        "9999": "Reggie"
+    },
+    "scan_variables": [
+                       {
+                       "name": "Group activity",
+                       "Category": [
+                                    {
+                                    "name": "Resting"
+                                    },
+                                    {
+                                    "name": "Moving"
+                                    },
+                                    {
+                                    "name": "Feeding"
+                                    },
+                                    {
+                                    "name": "Intergroup encounter"
+                                    }
+                                    ]
+                       },
+                       {
+                       "name": "Vegetation",
+                       "Type": [
+                                {
+                                "name": "Forest",
+                                "Level of disturbance": [
+                                                         {
+                                                         "name": "Primary"
+                                                         },
+                                                         {
+                                                         "name": "Secondary"
+                                                         }
+                                                         ]
+                                },
+                                {
+                                "name": "Swamp"
+                                },
+                                {
+                                "name": "Meadows"
+                                }
+                                ]
+                       },
+                       {
+                       "name": "Weather",
+                       "Category": [
+                                    {
+                                    "name": "Sunny"
+                                    },
+                                    {
+                                    "name": "Cloudy"
+                                    },
+                                    {
+                                    "name": "Light rain"
+                                    },
+                                    {
+                                    "name": "Heavy rain"
+                                    },
+                                    {
+                                    "name": "Hail"
+                                    }
+                                    ]
+                       }
+                       ],
+    "continuous_focal_variables": [
+                                   {
+                                   "name": "skin lesion",
+                                   "type": [
+                                            {
+                                            "name": "abrasion",
+                                            "Extent": [
+                                                       {
+                                                       "name": "1"
+                                                       },
+                                                       {
+                                                       "name": "2"
+                                                       },
+                                                       {
+                                                       "name": "3"
+                                                       },
+                                                       {
+                                                       "name": "4"
+                                                       },
+                                                       {
+                                                       "name": "5"
+                                                       }
+                                                       ]
+                                            },
+                                            {
+                                            "name": "alopecia",
+                                            "extent": [
+                                                       {
+                                                       "name": "1"
+                                                       },
+                                                       {
+                                                       "name": "2"
+                                                       },
+                                                       {
+                                                       "name": "3"
+                                                       },
+                                                       {
+                                                       "name": "4"
+                                                       },
+                                                       {
+                                                       "name": "5"
+                                                       }
+                                                       ]
+                                            },
+                                            {
+                                            "name": "vesicle",
+                                            "number": [
+                                                       {
+                                                       "name": "1"
+                                                       },
+                                                       {
+                                                       "name": "2-5"
+                                                       },
+                                                       {
+                                                       "name": "6-10"
+                                                       },
+                                                       {
+                                                       "name": ">10"
+                                                       }
+                                                       ]
+                                            },
+                                            {
+                                            "name": "ulcer"
+                                            },
+                                            {
+                                            "name": "papule",
+                                            "number": [
+                                                       {
+                                                       "name": "1"
+                                                       },
+                                                       {
+                                                       "name": "2-5"
+                                                       },
+                                                       {
+                                                       "name": "6-10"
+                                                       },
+                                                       {
+                                                       "name": "10+"
+                                                       }
+                                                       ]
+                                            },
+                                            {
+                                            "name": "pustule",
+                                            "number": [
+                                                       {
+                                                       "name": "1"
+                                                       },
+                                                       {
+                                                       "name": "2-5"
+                                                       },
+                                                       {
+                                                       "name": "6-10"
+                                                       },
+                                                       {
+                                                       "name": "10+"
+                                                       }
+                                                       ]
+                                            },
+                                            {
+                                            "name": "nodule/mass",
+                                            "size": [
+                                                     {
+                                                     "name": "<1cm"
+                                                     },
+                                                     {
+                                                     "name": "1-5cm"
+                                                     },
+                                                     {
+                                                     "name": "5-10cm"
+                                                     },
+                                                     {
+                                                     "name": ">10cm"
+                                                     }
+                                                     ]
+                                            },
+                                            {
+                                            "name": "wheal",
+                                            "size": [
+                                                     {
+                                                     "name": "<1cm"
+                                                     },
+                                                     {
+                                                     "name": "1-5cm"
+                                                     },
+                                                     {
+                                                     "name": "5-10cm"
+                                                     },
+                                                     {
+                                                     "name": ">10cm"
+                                                     }
+                                                     ]
+                                            },
+                                            {
+                                            "name": "macule",
+                                            "size": [
+                                                     {
+                                                     "name": "<1cm"
+                                                     },
+                                                     {
+                                                     "name": "1-5cm"
+                                                     },
+                                                     {
+                                                     "name": "5-10cm"
+                                                     },
+                                                     {
+                                                     "name": ">10cm"
+                                                     }
+                                                     ]
+                                            }
+                                            ]
+                                   },
+                                   {
+                                   "name": "wound",
+                                   "location": [
+                                                {
+                                                "name": "arm",
+                                                "Which arm?": [
+                                                               {
+                                                               "name": "left"
+                                                               },
+                                                               {
+                                                               "name": "right"
+                                                               }
+                                                               ]
+                                                },
+                                                {
+                                                "name": "leg",
+                                                "Which leg?": [
+                                                               {
+                                                               "name": "left"
+                                                               },
+                                                               {
+                                                               "name": "right"
+                                                               }
+                                                               ]
+                                                },
+                                                {
+                                                "name": "abdomen"
+                                                },
+                                                {
+                                                "name": "thorax"
+                                                },
+                                                {
+                                                "name": "head"
+                                                },
+                                                {
+                                                "name": "neck"
+                                                },
+                                                {
+                                                "name": "dorsal"
+                                                }
+                                                ]
+                                   },
+                                   {
+                                   "name": "fecal sample collection",
+                                   "type": [
+                                            {
+                                            "name": "formalin",
+                                            "individual*": [
+                                                            {
+                                                            "name": "_ID"
+                                                            }
+                                                            ]
+                                            },
+                                            {
+                                            "name": "ethanol",
+                                            "individual*": [
+                                                            {
+                                                            "name": "_ID"
+                                                            }
+                                                            ]
+                                            },
+                                            {
+                                            "name": "dry",
+                                            "individual*": [
+                                                            {
+                                                            "name": "_ID"
+                                                            }
+                                                            ]
+                                            }
+                                            ]
+                                   }
+                                   ],
+    "background_tap": {
+        "tapped": "focal_out_of_view",
+        "untapped": "focal_back_in_view"
+    },
+    "time_variables": {
+        "default_focal_duration": 1200,
+        "default_scan_interval": 300,
+        "focal_starts_with_scan": true,
+        "scan_20sec_notification": true
+    },
+    "multiple_group_selection": true,
+    "continuous_focal_variable_collection": true,
+    "save_previous_scan_settings": true,
+    "scene_initial_zoom_scale": 1.3,
+    "map_scene_initial_zoom_scale": 2,
+    "scene_width_meters": 60,
+    "map_scene_width_meters": 327,
+    "physical_contact_threshold": 0.6,
+    "scan_alert": true,
+    "scan_compass": false,
+    "map_mode": false
+}

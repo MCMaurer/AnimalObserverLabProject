@@ -1,0 +1,3 @@
+<img src="images/DFGFI_logo.png" style="float:left">
+<br></br>
+<h1><center>Welcome to the Animal Observer Toolbox</h1></center>

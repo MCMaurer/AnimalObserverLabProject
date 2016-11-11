@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Animal Observer by FosseyFund</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Animal Observer</h1>
+      <h2 class="project-tagline">An iPad application for behavior data collection</h2>
+      <a href="https://github.com/FosseyFund/AOToolBox" class="btn">View on GitHub</a>
+      <a href="https://github.com/FosseyFund/AOToolBox/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/FosseyFund/AOToolBox/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="what-is-animal-observer" class="anchor" href="#what-is-animal-observer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Animal Observer?</h3>
+
+<p><strong>Animal Observer</strong> is an iOS application optimized for iPad and iPad mini. It allows users to collect behavioral data in the field or in captivity, but can also be used to record health data or any other individual-specific data. The current beta-version of <strong>Animal Observer</strong> is currently used by Fossey Fund scientists studying gorillas in Rwanda and Congo. The application will be made available to the public on the Apple App Store in April 2015.</p>
+
+<h3>
+<a id="current-features" class="anchor" href="#current-features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Current features</h3>
+
+<p><strong>Animal Observer</strong> is an iPad application specifically developed to help behavioral ecologist collect focal-follow and scan data on social animals. It can also be used to record several types of ad libitum data. <strong>Animal Observer</strong> includes a default data collection protocol and a few gorilla group composition data which you can use to practice and assess if the App meets your needs. Feel free to play with it and test the following features:</p>
+
+<ul>
+<li><p>user-specific pin codes: if several users share the same device, you can give each of them a specific pin code. Default pin codes values range form 1111, 2222... etc to 7777.</p></li>
+<li><p>after dialing your pin code the App starts a new session. On the first screen you can select session-specific variables. Default variable include the observer name and observer type. These variables can be modified and more variables can be added (see customizing tool below).</p></li>
+<li><p>select the social group you want to study during the session. Double tap on the images to zoom in. Add additional individuals using the + button at the end of the image list.</p></li>
+<li><p>GPS feature: if GPS is turned on, the App will record a GPS coordinate (lat, lon, alt, precision)  each time a new behavior is recorded, each time a scan is recorded and each time a text comment is entered. If you use the App in the field, we recommend pairing the iPad with a bluetooth GPS. Several models exist. We currently use the Garmin GLO and it works well (although it's not waterproof...).</p></li>
+<li><p>Use Compass: if you turn this feature on, you will be able to enter the compass bearing of the focal individual at the end of each scan. Combined with the GPS data, this feature can be used to calculate the lat/lon coordinate of all the individuals you are observing. This type of data can then be used to study individual movement patterns (who is at the front of the group, who walks behind...etc).</p></li>
+<li><p>Map mode: in this mode, the typical background (target with circles at 2m, 5m, 10m, 20m... etc) is replaced by an image in png format. If this image is a map of a small study area (eg, forest clearing visited by gorillas, enclosure in a sanctuary or a zoo), you will be able to use your scan data to look at which areas of your map are used the most (or the least) by your study individuals or groups.</p></li>
+<li><p>the data upload/download button also offers a few features, the most important being "delete all behavior data"...</p></li>
+<li><p>tap "confirm settings" and access the focal settings. Select an individual, a focal duration and a scan interval.</p></li>
+<li><p>if you want to enter focal-specific variable, it's possible. The default version only has one such variable (Data usage) but this can be customized.</p></li>
+<li><p>press "Start Focal" and proceed with the first scan. Drag individuals from the left panel to the scene and place them wherever you see them around the focal individual. Tap on the individuals you want to record activities for. To select several individuals at the same time, double tap on the scene and draw a circle around these individuals BEFORE your second tap looses contact with the screen. This gesture may require a little bit of practice... The x,y position of each individual is recorded at the end of the scan. If map mode is off, the focal individual has coordinates {0,0} and the other individuals' coordinates are expressed in meters. If map mode is on, the origin of the coordinate system is the lower left corner of the background map.</p></li>
+<li><p>Enter scan-specific variables on the bottom left panel and finish your scan. If Compass is on, you can then enter the bearing of the focal individual.</p></li>
+<li><p>During the interval between scans, you can enter social behavior data and move individual on the scene. The movements are NOT recorded, and the location of each individual on the scene is only a tool to help with animal identification and to prepare the next scan. To enter social interaction data, lock the "move" switch and drag your finger between two individuals. If the behavioral is directional (eg, grooming, dominance interactions...), make sure you drag from the actor to the subject.</p></li>
+<li><p>To enter individual-specific data, double tap on an individual and follow the menus. Such data may include self-directed behaviors (self-grooming...) or information such as health data.</p></li>
+<li><p>Dyadic interaction data and individual-specific data can be edited by tapping on the edit button at the top right corner of the screen. Comments can then be added.</p></li>
+<li><p>If your focal animal disappears, just tap the scene two fingers. The scene will turn red and the time stamp and GPS location will be recorded. Tap again with two fingers when the animal is back in view. You can actually use this feature for something else than "animal out-of-view/back-in-view". The message saved each time you use the two-finger tap gesture can be customized.</p></li>
+<li><p>All three types of pop-up menus (dyadic interaction, individual activities recorded during scans and individual-specific data) can be customized.</p></li>
+<li><p>At the bottom of the scene, three buttons allow recording videos, photos, voice or written comments. When written comments are saved, the GPS coordinate is also recorded.</p></li>
+</ul>
+
+<h3>
+<a id="customizing-animal-observer" class="anchor" href="#customizing-animal-observer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Customizing <strong>Animal Observer</strong>
+</h3>
+
+<p>We designed a small application names <strong>Animal Observer Toolbox</strong> to allow you to generate the <em>json</em> files needed to customize your user interface. You will need a recent version of software R to be able to access this application. R can be downloaded <a href="https://cran.r-project.org/">here</a>. Make sure R is installed on every computer you will use to set up Animal Observer and to download collected data. You will also need package 'shiny' to be installed. To do so, just type <code>install.packages('shiny')</code> in the R console.</p>
+
+<p>You will need an internet connection the first time you run the toolbox. To launch it, just type:</p>
+
+<pre><code>library(shiny)
+runGitHub("FosseyFund/AOToolBox-public")
+</code></pre>
+
+<p>Necessary packages will then automatically be downloaded and the toolbox will start in your default internet browser. Follow the instructions in the different tabs to set up your user interface and convert the data you've collected to a set of csv files.</p>
+
+<p>Once you've launched the Toolbox once using the above command, you can run it even without an internet access using the following procedure:</p>
+
+<ul>
+<li>Download the whole repository using the links at the top of the page. Unzip or untar it if you've downloaded it in a compressed format. You should obtain a folder named 'AOToolBox-master'.</li>
+<li>Make sure R's working directory includes the AOToolBox folder.</li>
+<li>Launch it from R by typing:</li>
+</ul>
+
+<pre><code>library(shiny)
+runApp('AOToolBox-master')
+</code></pre>
+
+<p>Note that although the <strong>Animal Observer Tool Box</strong> is fully functional, it is still in development. The tutorials will be improved, video demos will be included and additional features will be added. Ideas and feedback are welcome !</p>
+
+<p>Thanks !</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/FosseyFund/AOToolBox">Animal Observer</a> is maintained by <a href="https://github.com/FosseyFund">FosseyFund</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

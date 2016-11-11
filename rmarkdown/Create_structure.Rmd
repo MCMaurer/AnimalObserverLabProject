@@ -1,0 +1,350 @@
+
+***
+
+To run all the behaviors you wish to record during focal observations, you will need to prepare and upload ".csv" files using the panel on the left. This allows you to generate the **"behaviors.json"** file that is used by the app. The information included in this file will be displayed as pop-windows during a focal. A minimum of 3 files is needed to generate **"behaviors.json"**. 
+
+1. Dyadic interactions, recorded between scans by turning 'move' off and dragging your finger between two individuals from the scene.
+2. Animal activities, recorded during scans by tapping on the individuals or by tap-and-dragging your finger around a group of individuals.  
+3. Self-directed/health information, recorded by double-tapping on an individual.
+
+*N.B.* The structure of these ".csv" files is important. Each row corresponds to a possible sequence of behaviors and modifiers. For example, if you are interested in 3 different behaviors, and each behavior has a single modifier with 4 different levels, you should have 12 rows in your ".csv" file. The structure of the file should be hierarchical--from the leftmost to the rightmost columns--to match the sequence of behaviors and modifiers you wish to display in the pop-up windows on the app. 
+
+***
+
+#### 1. Upload dyadic interactions csv file
+
+To upload the list of social behaviors, create a ".csv" file that includes all relevant social behaviors that you wish to record between the focal animal and other individuals in the social unit.
+Important: if the "multiply" sign "\*" is added at the end of a column header, the corresponding modifier will allow multiple levels to be selected.
+
+Below is an example of what this ".csv" file can look like:
+
+### 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-e2mf{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-e2mf">BEHAVIOR</th>
+<th class="tg-e2mf">CONTEXT</th>
+<th class="tg-e2mf">MUTUAL</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Aggresses</td>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Aggresses</td>
+<td class="tg-rkwu">Moving</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Aggresses</td>
+<td class="tg-rkwu">Resting</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooms</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Yes</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooms</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">No</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Displaces</td>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Displaces</td>
+<td class="tg-rkwu">Moving</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Displaces</td>
+<td class="tg-rkwu">Resting</td>
+<td class="tg-rkwu"></td>
+</tr>
+</table>
+ 
+###  
+
+In the above example, the <font face="Courier New">BEHAVIOR, CONTEXT, MUTUAL</font> columns were used to specify variables to be recorded during dyadic interactions. These columns can be edited as required, or more columns can be added. 
+
+
+***
+
+#### 2. Upload activity (scan) csv file
+
+To upload a list of activities that will be recorded during each scan, create a ".csv" file that specifies each of these activities and any other variables you wish to record. This file has the same hierarchical structure as the dyadic interactions csv file.
+
+Below is an example of what this ".csv" file can look like:
+
+### 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-hi20{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-hi20">ACTIVITY</th>
+<th class="tg-hi20">HEIGHT</th>
+<th class="tg-hi20">GROOMEE_ID*</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooming</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu">_ID</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooming</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu">_ID</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Playing</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Playing</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu"></td>
+</tr>
+</table>
+
+### 
+* In the above example, the <font face="Courier New">ACTIVITY, HEIGHT, GROOMEE_ID</font> columns were used to specify variables to be recorded during scans. These columns can be edited as required, or more columns can be added.
+
+* If the identity of another individual is to be recorded for a certain activity, this *must* be specified in one of the columns with the value _ID. This refers to the group composition ".csv" file (See <a id="link_to_animals" href="#" class="action-button">"Create group composition"</a> for specifications). Note that the special _ID tag can also be used in the dyadic interactions csv file (eg, to characterize social interactions involving three individuals) or in the self-directed/health csv file.
+
+* Note the presence of "\*" at the end of the GROOMEE_ID column header. This allows muliple individual IDs to be selected simultaneously. The "\*" symbol can be used for any column of the dyadic, scan and self directed/health csv files.
+
+***
+
+#### 3. Upload self-directed/health csv file
+
+To upload a list of self-directed behaviors or health parameters, create a ".csv" file that includes the appropriate variables. 
+
+Below is an example of what this ".csv" file can look like:
+
+### 
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-qjic{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-qjic">TYPE</th>
+<th class="tg-qjic">BEHAVIOR</th>
+<th class="tg-qjic">SYMPTOM</th>
+<th class="tg-qjic">SEVERITY</th>
+<th class="tg-qjic">SYMPTOM2</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Behavior</td>
+<td class="tg-rkwu">Self-groom</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Behavior</td>
+<td class="tg-rkwu">Self-play</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Health</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Wound</td>
+<td class="tg-rkwu">Moderate</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Health</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Wound</td>
+<td class="tg-rkwu">Severe</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Health</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Respiratory</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Cough/Sneeze</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Health</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Respiratory</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">Nasal discharge</td>
+</tr>
+</table>
+
+### 
+
+* This file allows you to specify any self-directed behaviors or health parameters to be recorded for an individual between scans. The columns can be edited as required. 
+
+***
+
+#### 4. Upload food items csv file (Optional)
+
+This file is optional. If you wish to record food items during focal and scan observations, create and upload a ".csv" file that includes all relevant food items. You may specify as many species as required and create additional columns for food parts or types. You may even specifcy food types by genera and species by creating multiple columns. 
+
+Below is an example of what this ".csv" file can look like:
+
+###  
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-hi20{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-hi20">FOOD_ITEM</th>
+<th class="tg-hi20">PART_EATEN</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Bamboo</td>
+<td class="tg-rkwu">Shoot</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Bamboo</td>
+<td class="tg-rkwu">Leaves</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Ficus</td>
+<td class="tg-rkwu">Fruit</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Ficus</td>
+<td class="tg-rkwu">Leaves</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Ficus</td>
+<td class="tg-rkwu">Bark</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Mushroom</td>
+<td class="tg-rkwu">Whole</td>
+</tr>
+</table>
+
+### 
+
+
+If you decide to include this food file, you will need to add an additonal column to the other ".csv" files . This column *must* be named <font face="Courier New">_FOOD</font> and it *must* take the following values:
+
+* <font face="Courier New">NA</font> or an empty cell. 
+* <font face="Courier New">_FOOD</font>. This refers to the **"foods.csv"** file which specifies all relevant food species. 
+
+Below is an example of what this will look like:
+
+### 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-hi20{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-hi20">ACTIVITY</th>
+<th class="tg-hi20">HEIGHT</th>
+<th class="tg-hi20">GROOMEE_ID</th>
+<th class="tg-hi20">_FOOD</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">_FOOD</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Feeding</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu">_FOOD</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooming</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu">_ID</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Grooming</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu">_ID</td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Playing</td>
+<td class="tg-rkwu">0-5m</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+</tr>
+<tr>
+<td class="tg-rkwu">Playing</td>
+<td class="tg-rkwu">5-10m</td>
+<td class="tg-rkwu"></td>
+<td class="tg-rkwu"></td>
+</tr>
+</table>
+  
+### 
+***
+
+#### 5. Enter protocol version
+
+To keep track of which version of your protocol files was used for collected data, specify the version name or number in the left panel. This can be any string of characters except "vX.X". When the protocol files are generated, the version will be saved along with the rest of the data. 
+
+(Note that this is not the same as the version of the application that appears on the pinpad screen!)
+
+<hr size="5">
+
+#### 6. Add behaviors.json file to iPad
+
+Once all these ".csv" files have been uploaded in the left panel, click on "Run" and the **"behaviors.json"** file will be generated. It may take a few seconds before "DONE!" appears at the top of the screen. Then click on "Download behaviors.json" to save the file and upload it to the iPad following <a id="link_to_welcome" href="#" class="action-button">these instructions</a>.
+
+Note that you can edit behaviors.json manually using any basic text editor or online using [jsoneditoronline.org](http://www.jsoneditoronline.org).
+
+***
+
+

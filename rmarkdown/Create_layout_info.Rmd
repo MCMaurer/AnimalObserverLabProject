@@ -1,0 +1,230 @@
+***
+
+
+**Read instructions below, then <a id="link_to_sessionSetup" href="#" class="action-button">switch tab</a> and follow the steps on the left panel.**
+
+***
+
+To customize the variables which can be selected in the session settings, focal settings, scan settings and global settings sections of Animal Observer, you will need to prepare and upload ".csv" files using the panel on the left. This allows you to generate the **"layout_json.json"** file that is used by the app. This information will be displayed in the tables on the left side of the screen. A minimum of 3 ".csv" files (+ an optional 4th file) is needed to generate **"layout_json.json"**. 
+
+1. Session variables, recorded at the beginning of a session, when the social group is selected.  
+2. Focal variables, recorded at the beginning of a focal, when the focal individual is selected. Do not include in this file the focal duration, scan interval or focal individual. Only include additional variables which you think are necessary (for example, variable "data usage" with three levels: research, training or reliability test).
+3. Scan variables, recorded during scans, and corresponding to variables that are not specific to a particular individual and must be recorded at fixed time intervals such as weather, temperature, group activity, vegetation type, ...etc.
+4. Optionally, continuous focal variables, recorded continuously between scans. For example, health data on the focal individual can be opportunistically collected during the focal using this feature. One can also use it to record information about biological samples collected during the focal, ...etc. Entering all the continuous variables is NOT required to complete a focal.
+
+*N.B.* The structure of these 3 (or 4) ".csv" files is important. It is identical to the structure of the ".csv" files described in <a id="link_to_structure2" href="#" class="action-button">Creating behavioral protocol file</a>. Each row corresponds to a possible sequence of variables and modifiers. For example, if you are interested in 3 different variables, and each behavior has a single modifier with 4 different levels, you should have 12 rows in your ".csv" file. The structure of the file should be hierarchical -- from the leftmost to the rightmost columns -- to match the sequence of behaviors and modifiers you wish to display in the pop-up windows on the app. 
+
+Here is an example of a table that can be saved as ".csv" file to customize session variables:
+
+***
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-e2mf{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-e2mf">Day variable</th>
+<th class="tg-e2mf">Observer type</th>
+<th class="tg-e2mf">Observer name</th>
+<th class="tg-e2mf">YES/NO</th>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Researcher</td>
+<td class="tg-yw4l">Winnie</td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Researcher</td>
+<td class="tg-yw4l">Neetha</td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Researcher</td>
+<td class="tg-yw4l">Damien</td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Research assistant</td>
+<td class="tg-yw4l">Oscar</td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Research assistant</td>
+<td class="tg-yw4l">Reggie</td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Observer type</td>
+<td class="tg-yw4l">Temporary intern</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">Group localized?</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">YES</td>
+</tr>
+<tr>
+<td class="tg-yw4l">Group localized?</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">NO</td>
+</tr>
+</table>
+
+***
+
+#### Additional customizations
+
+If the "multiply" sign ("\*") is added at the end of a column header, the corresponding variable will allow multiple levels to be selected.
+Also, if a variable takes "*\_ID*" as a possible value, then the user will be able to select individual IDs from the selected group(s). *N.B.*: do not use "*\_ID*" for session variables, because social groups may not have been selected yet at this stage.
+
+Below is an example of a table that can be saved as ".csv" file to customize continuous focal variables. This file allows multiple types of skin lesions to be selected, and allows multiple individuals to be selected for the "fecal sample collection" variable.
+
+***
+
+<style type="text/css">
+.tg{border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-e2mf{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;color:#000000;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-e2mf">Global variables</th>
+<th class="tg-e2mf">type*</th>
+<th class="tg-e2mf">location</th>
+<th class="tg-e2mf">which leg?</th>
+<th class="tg-e2mf">sample type</th>
+<th class="tg-e2mf">individual(s)*</th>
+</tr>
+<tr>
+<td class="tg-yw4l">skin lesion</td>
+<td class="tg-yw4l">abrasion</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">skin lesion</td>
+<td class="tg-yw4l">alopecia</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">skin lesion</td>
+<td class="tg-yw4l">vesicle</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">skin lesion</td>
+<td class="tg-yw4l">ulcer</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">skin lesion</td>
+<td class="tg-yw4l">papule</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">arm</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">leg</td>
+<td class="tg-yw4l">left</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">leg</td>
+<td class="tg-yw4l">right</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">abdomen</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">thorax</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">wound</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">head</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+</tr>
+<tr>
+<td class="tg-yw4l">fecal sample collection</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">formalin</td>
+<td class="tg-yw4l">_ID</td>
+</tr>
+<tr>
+<td class="tg-yw4l">fecal sample collection</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">ethanol</td>
+<td class="tg-yw4l">_ID</td>
+</tr>
+<tr>
+<td class="tg-yw4l">fecal sample collection</td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l"></td>
+<td class="tg-yw4l">dry</td>
+<td class="tg-yw4l">_ID</td>
+</tr>
+</table>
+
+***
+Note that you can edit layout_info.json manually using any basic text editor or online using [jsoneditoronline.org](http://www.jsoneditoronline.org).
+
+***
+

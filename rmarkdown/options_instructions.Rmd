@@ -1,0 +1,28 @@
+***
+
+
+#### 2. Fill in the second column of the following options table.
+Make sure you respect data types (eg, booleans must be TRUE or FALSE, numbers must not be characters).
+
+Some explanation: 
+
+- **default_focal_duration**: self-explanatory, in seconds. Can be modified from the iPad.
+- **default_scan_interval**: self-explanatory, in seconds. Can be modified from the iPad.
+- **focal_starts_with_scan**: set to FALSE if you do not want to do a scan at the beginning of the focal.
+- **scan_20sec_notification**: set to FALSE if you do not want to receive a notification ('beep' sound) 20 seconds before the scan time. Notifications are received even when the device is in sleep. 
+- **multiple_group_selection**: set to FALSE if you do not want to allow multiple groups to be selected simultaneously.
+- **continuous_focal_variable_collection**: set to FALSE if you do not need to collect global variables between scans.
+- **previous_scan_settings_saved**: set to FALSE if you do not want scan settings to have default values.
+- **scene_width_meters**: if you use a custom scene.jpg background (see Additional customizations tab), set here the width of the jpg image file, in meters.
+- **scene_initial_zoom_scale**: set default zoom scale for scene.jpg background (higher number = more zoom-in).
+- **map_scene_width_meters**: if you use a custom map_scene.jpg background (see Additional customizations tab), set here the width of the jpg image file, in meters (for Map Mode only).
+- **map_scene_initial_zoom_scale**: set default zoom scale for map_scene.jpg background (higher number = more zoom-in).
+- **physical_contact_threshold**: set the maximum distance indicating between-individual contacts (visualized as a thick black line around the individuals).
+- **scan_alert**: set to FALSE if you do not want a 'beep' sound to inform you when a scan starts.
+- **default_scan_compass_setting**: set to TRUE if you want Compass Mode to be activated by default. Can be modified from the iPad.
+- **default_map_mode_setting**: set to TRUE if you want Map Mode to be activated by default. Can be modified from the iPad.
+- **background_tapped**: message you want to be recorded when the scene is tapped with two fingers and turns red.
+- **background_untapped**: message you want to be recorded when the scene is tapped again with two fingers and turns white.
+- **sftp parameters**: optional default sftp parameters if you want to upload the collected data to a remote server wirelessly and/or if you want to update all the customization files from an sftp server. . Can be modified from the iPad.
+
+

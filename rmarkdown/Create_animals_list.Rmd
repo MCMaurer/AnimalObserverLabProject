@@ -1,0 +1,89 @@
+
+***
+
+#### 1. Upload list of study animals
+
+To customize the list of animals, you need to create a ".json" file named **"animals.json"**, which includes the list of the study animals. Upload the necessary ".csv" file using the panel on the left to generate **"animals.json"**.
+
+Below is an example of what this ".csv" file can look like:
+
+***
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-rkwu{font-family:"Courier New", Courier, monospace !important;;vertical-align:top}
+.tg .tg-qjic{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-n7sy{font-family:"Courier New", Courier, monospace !important;;background-color:#efefef;vertical-align:top}
+</style>
+<table class="tg">
+<tr>
+<th class="tg-qjic">NAME</th>
+<th class="tg-qjic">ID</th>
+<th class="tg-n7sy">GR</th>
+<th class="tg-n7sy">SEX</th>
+<th class="tg-n7sy">AGESEX</th>
+</tr>
+<tr>
+<td class="tg-rkwu">Iyambere</td>
+<td class="tg-rkwu">IYA</td>
+<td class="tg-rkwu">IYA</td>
+<td class="tg-rkwu">M</td>
+<td class="tg-rkwu">SB</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Tamu</td>
+<td class="tg-rkwu">TAM</td>
+<td class="tg-rkwu">IYA</td>
+<td class="tg-rkwu">F</td>
+<td class="tg-rkwu">AF</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Poppy</td>
+<td class="tg-rkwu">POP</td>
+<td class="tg-rkwu">IYA</td>
+<td class="tg-rkwu">F</td>
+<td class="tg-rkwu">AF</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Musilikale</td>
+<td class="tg-rkwu">MSK</td>
+<td class="tg-rkwu">MSK</td>
+<td class="tg-rkwu">M</td>
+<td class="tg-rkwu">SB</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Noheli</td>
+<td class="tg-rkwu">NOH</td>
+<td class="tg-rkwu">MSK</td>
+<td class="tg-rkwu">M</td>
+<td class="tg-rkwu">SB</td>
+</tr>
+<tr>
+<td class="tg-rkwu">Itorero</td>
+<td class="tg-rkwu">ITO</td>
+<td class="tg-rkwu">MSK</td>
+<td class="tg-rkwu">M</td>
+<td class="tg-rkwu">MJUV</td>
+</tr>
+</table>
+
+***
+
+This file can include as many variables about group composition as you want, for example the sex and age. The following columns  are *required* and the labels *must* be typed as in the quotes:
+
+* <font face="Courier New">"ID"</font> | to specify the identity of the individuals.  
+* <font face="Courier New">"GR"</font> | to specify the group, if multiple social units are being studied.
+
+***
+
+#### 2. Add animals.json file to iPad
+
+* Once this ".csv" file has been uploaded in the left panel, the **"animals.json"** file will be generated. Click on "Download animals.json" to save the file and upload it to the iPad following <a id="link_to_welcome2" href="#" class="action-button">these instructions</a>.
+  
+***
+Note that you can edit layout_info.json manually using any basic text editor or online using [jsoneditoronline.org](http://www.jsoneditoronline.org).
+
+***
+

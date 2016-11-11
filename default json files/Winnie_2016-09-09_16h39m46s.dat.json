@@ -1,0 +1,400 @@
+{
+  "data": {
+    "sessions": [
+      {
+        "device_ID": "780995E1-AB04-4CA3-A0E5-378EEE929373",
+        "behaviors_JSON_file_ID": "v0.0",
+        "gps_on": 1,
+        "layout_info_JSON_file_ID": "v0.0",
+        "details": {
+          "Observer name": {
+            "Type": "Reggie"
+          },
+          "Observer type": {
+            "Type": "Data technician"
+          }
+        },
+        "pin_name": "Winnie",
+        "focals": [
+          {
+            "scan_interval": 300,
+            "details": {
+              "Data usage": {
+                "Usage": "Reliability test"
+              }
+            },
+            "start_time": "2016-09-09,16:02:51",
+            "behaviors": [
+              {
+                "subject": "PAS",
+                "selectionString": "Displays towards",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:07:39",
+                "details": {
+                  "BEHAVIOR": "Displays towards"
+                },
+                "comment": "Aggressive",
+                "lat": 38.54206,
+                "actor": "MAS",
+                "class": "Behavior",
+                "alt": 8.912724
+              },
+              {
+                "subject": "PAS",
+                "selectionString": "Displays towards",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:07:43",
+                "details": {
+                  "BEHAVIOR": "Displays towards"
+                },
+                "lat": 38.54206,
+                "actor": "MAS",
+                "class": "Behavior",
+                "alt": 8.912724
+              },
+              {
+                "subject": "PAS",
+                "selectionString": "Grooms/YES",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:09:44",
+                "details": {
+                  "BEHAVIOR": "Grooms",
+                  "MUTUAL": "YES"
+                },
+                "lat": 38.54206,
+                "actor": "MAS",
+                "class": "Behavior",
+                "alt": 8.912724
+              },
+              {
+                "subject": "PAS",
+                "selectionString": "Vocalizes at",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:10:05",
+                "details": {
+                  "BEHAVIOR": "Vocalizes at"
+                },
+                "lat": 38.54206,
+                "actor": "SAK",
+                "class": "Behavior",
+                "alt": 8.912724
+              },
+              {
+                "subject": "PAS",
+                "selectionString": "Grooms/YES",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:10:07",
+                "details": {
+                  "BEHAVIOR": "Grooms",
+                  "MUTUAL": "YES"
+                },
+                "lat": 38.54206,
+                "actor": "MAS",
+                "class": "Behavior",
+                "alt": 8.912724
+              },
+              {
+                "subject": "PAS",
+                "selectionString": "HEALTH/WOUND/MILD",
+                "lon": -121.7473,
+                "gpsPrecision": 65,
+                "timestamp": "2016-09-09,16:22:51",
+                "details": {
+                  "TYPE": "HEALTH",
+                  "SYMPTOM": "WOUND",
+                  "SEVERITY": "MILD"
+                },
+                "lat": 38.54206,
+                "actor": "PAS",
+                "class": "Behavior",
+                "alt": 8.912724
+              }
+            ],
+            "scans": [
+              {
+                "details": {
+                  "Weather": {
+                    "Category": "Sunny"
+                  },
+                  "Group activity": {
+                    "Category": "Resting"
+                  },
+                  "Vegetation": {
+                    "Type": "Meadows"
+                  }
+                },
+                "observations": [
+                  {
+                    "actor": "SAK",
+                    "details": {
+                      "ACTIVITY": "Resting",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -2.813605,
+                    "y_delta": -1.90827
+                  },
+                  {
+                    "actor": "PAS",
+                    "details": {
+                      "ACTIVITY": "Resting",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 0,
+                    "y_delta": 0
+                  },
+                  {
+                    "actor": "KEZ",
+                    "details": {
+                      "ACTIVITY": "Resting",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -1.741965,
+                    "y_delta": 3.196923
+                  },
+                  {
+                    "actor": "MAS",
+                    "details": {
+                      "ACTIVITY": "Resting",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 2.502791,
+                    "y_delta": 2.433658
+                  }
+                ],
+                "alt": 8.912724,
+                "compassBearing": 43.60588073730469,
+                "class": "Scan",
+                "gpsPrecision": 65,
+                "lon": -121.7473,
+                "lat": 38.54206,
+                "timestamp": "2016-09-09,16:02:51"
+              },
+              {
+                "details": {
+                  "Weather": {
+                    "Category": "Sunny"
+                  },
+                  "Group activity": {
+                    "Category": "Resting"
+                  },
+                  "Vegetation": {
+                    "Type": "Meadows"
+                  }
+                },
+                "observations": [
+                  {
+                    "actor": "SAK",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -2.813605,
+                    "y_delta": -1.90827
+                  },
+                  {
+                    "actor": "PAS",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 0,
+                    "y_delta": 0
+                  },
+                  {
+                    "actor": "KEZ",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -1.077505,
+                    "y_delta": 2.884279
+                  },
+                  {
+                    "actor": "MAS",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 2.502791,
+                    "y_delta": 2.433658
+                  }
+                ],
+                "alt": 8.912724,
+                "compassBearing": 139.8295745849609,
+                "class": "Scan",
+                "gpsPrecision": 65,
+                "lon": -121.7473,
+                "lat": 38.54206,
+                "timestamp": "2016-09-09,16:07:52"
+              },
+              {
+                "details": {
+                  "Weather": {
+                    "Category": "Sunny"
+                  },
+                  "Group activity": {
+                    "Category": "Moving"
+                  },
+                  "Vegetation": {
+                    "Type": "Forest",
+                    "Level of disturbance": "Secondary"
+                  }
+                },
+                "observations": [
+                  {
+                    "actor": "SAK",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "2-5m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -2.813605,
+                    "y_delta": -1.90827
+                  },
+                  {
+                    "actor": "PAS",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "2-5m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 0,
+                    "y_delta": 0
+                  },
+                  {
+                    "actor": "KEZ",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "2-5m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -1.077505,
+                    "y_delta": 2.884279
+                  },
+                  {
+                    "actor": "MAS",
+                    "details": {
+                      "ACTIVITY": "Playing",
+                      "HEIGHT": "2-5m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 2.502791,
+                    "y_delta": 2.433658
+                  }
+                ],
+                "alt": 8.912724,
+                "compassBearing": 77.23406982421875,
+                "class": "Scan",
+                "gpsPrecision": 65,
+                "lon": -121.7473,
+                "lat": 38.54206,
+                "timestamp": "2016-09-09,16:17:52"
+              },
+              {
+                "details": {
+                  "Weather": {
+                    "Category": "Heavy rain"
+                  },
+                  "Group activity": {
+                    "Category": "Moving"
+                  },
+                  "Vegetation": {
+                    "Type": "Forest",
+                    "Level of disturbance": "Secondary"
+                  }
+                },
+                "observations": [
+                  {
+                    "actor": "SAK",
+                    "details": {
+                      "ACTIVITY": "Self-grooming",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -2.813605,
+                    "y_delta": -1.90827
+                  },
+                  {
+                    "actor": "PAS",
+                    "details": {
+                      "ACTIVITY": "Self-grooming",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 0,
+                    "y_delta": 0
+                  },
+                  {
+                    "actor": "KEZ",
+                    "details": {
+                      "ACTIVITY": "Self-grooming",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": -1.077505,
+                    "y_delta": 2.884279
+                  },
+                  {
+                    "actor": "MAS",
+                    "details": {
+                      "ACTIVITY": "Self-grooming",
+                      "HEIGHT": "0m"
+                    },
+                    "class": "Observation",
+                    "x_delta": 2.502791,
+                    "y_delta": 2.433658
+                  }
+                ],
+                "alt": 8.912724,
+                "compassBearing": 131.719970703125,
+                "class": "Scan",
+                "gpsPrecision": 65,
+                "lon": -121.7473,
+                "lat": 38.54206,
+                "timestamp": "2016-09-09,16:22:52"
+              }
+            ],
+            "animal_id": "PAS",
+            "text": [],
+            "end_time": "2016-09-09,16:22:51",
+            "duration": 1200,
+            "class": "Focal",
+            "continuous_focal_vars": {
+              "wound": {
+                "location": "arm",
+                "Which arm?": "right"
+              },
+              "fecal sample collection": {
+                "type": "dry",
+                "individual": "BKA"
+              },
+              "skin lesion": {
+                "type": "alopecia",
+                "extent": "2"
+              }
+            }
+          }
+        ],
+        "group_id": "ISA",
+        "map_mode_on": 0,
+        "arrival_time": "2016-09-09,16:02:28",
+        "departure_time": "2016-09-09,16:37:13",
+        "class": "Session",
+        "compass_on": 1
+      }
+    ]
+  }
+}

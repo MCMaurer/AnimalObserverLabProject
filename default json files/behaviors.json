@@ -1,0 +1,605 @@
+{
+    "version":"v0.0",
+    "dyadic": {
+        "BEHAVIOR": [
+                     {
+                     "name": "Aggresses",
+                     "CONTEXT": [
+                                 {
+                                 "name": "Feeding",
+                                 "FOOD_ITEM*": [
+                                               {
+                                               "name": "Carduus",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves",
+                                                              "PHYSICAL_CONTACT": [
+                                                                                   {
+                                                                                   "name": "NO"
+                                                                                   },
+                                                                                   {
+                                                                                   "name": "YES"
+                                                                                   }
+                                                                                   ]
+                                                              },
+                                                              {
+                                                              "name": "Stem",
+                                                              "PHYSICAL_CONTACT": [
+                                                                                   {
+                                                                                   "name": "NO"
+                                                                                   },
+                                                                                   {
+                                                                                   "name": "YES"
+                                                                                   }
+                                                                                   ]
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Celery",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Stem",
+                                                              "PHYSICAL_CONTACT": [
+                                                                                   {
+                                                                                   "name": "NO"
+                                                                                   },
+                                                                                   {
+                                                                                   "name": "YES"
+                                                                                   }
+                                                                                   ]
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Galium",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves",
+                                                              "PHYSICAL_CONTACT": [
+                                                                                   {
+                                                                                   "name": "NO"
+                                                                                   },
+                                                                                   {
+                                                                                   "name": "YES"
+                                                                                   }
+                                                                                   ]
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Nettles",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves",
+                                                              "PHYSICAL_CONTACT": [
+                                                                                   {
+                                                                                   "name": "NO"
+                                                                                   },
+                                                                                   {
+                                                                                   "name": "YES"
+                                                                                   }
+                                                                                   ]
+                                                              }
+                                                              ]
+                                               }
+                                               ]
+                                 },
+                                 {
+                                 "name": "Moving",
+                                 "PHYSICAL_CONTACT": [
+                                                      {
+                                                      "name": "NO"
+                                                      },
+                                                      {
+                                                      "name": "YES"
+                                                      }
+                                                      ]
+                                 },
+                                 {
+                                 "name": "Reprod",
+                                 "PHYSICAL_CONTACT": [
+                                                      {
+                                                      "name": "NO"
+                                                      },
+                                                      {
+                                                      "name": "YES"
+                                                      }
+                                                      ]
+                                 }
+                                 ]
+                     },
+                     {
+                     "name": "Avoids",
+                     "CONTEXT": [
+                                 {
+                                 "name": "Feeding",
+                                 "FOOD_ITEM*": [
+                                               {
+                                               "name": "Carduus",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              },
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Celery",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Galium",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Nettles",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               }
+                                               ]
+                                 },
+                                 {
+                                 "name": "Moving"
+                                 },
+                                 {
+                                 "name": "Resting"
+                                 }
+                                 ]
+                     },
+                     {
+                     "name": "Copulates with"
+                     },
+                     {
+                     "name": "Displaces",
+                     "CONTEXT": [
+                                 {
+                                 "name": "Feeding",
+                                 "FOOD_ITEM*": [
+                                               {
+                                               "name": "Carduus",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              },
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Celery",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Galium",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Nettles",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               }
+                                               ]
+                                 },
+                                 {
+                                 "name": "Moving"
+                                 },
+                                 {
+                                 "name": "Resting"
+                                 }
+                                 ]
+                     },
+                     {
+                     "name": "Displays towards"
+                     },
+                     {
+                     "name": "Grooms",
+                     "MUTUAL": [
+                                {
+                                "name": "NO"
+                                },
+                                {
+                                "name": "YES"
+                                }
+                                ]
+                     },
+                     {
+                     "name": "Nurses"
+                     },
+                     {
+                     "name": "Plays with"
+                     },
+                     {
+                     "name": "Supplants",
+                     "CONTEXT": [
+                                 {
+                                 "name": "Feeding",
+                                 "FOOD_ITEM*": [
+                                               {
+                                               "name": "Carduus",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              },
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Celery",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Stem"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Galium",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               },
+                                               {
+                                               "name": "Nettles",
+                                               "PART_EATEN": [
+                                                              {
+                                                              "name": "Leaves"
+                                                              }
+                                                              ]
+                                               }
+                                               ]
+                                 },
+                                 {
+                                 "name": "Moving"
+                                 },
+                                 {
+                                 "name": "Resting"
+                                 }
+                                 ]
+                     },
+                     {
+                     "name": "Vocalizes at"
+                     }
+                     ]
+    },
+    "scan": {
+        "ACTIVITY": [
+                     {
+                     "name": "Feeding",
+                     "FOOD_ITEM*": [
+                                   {
+                                   "name": "Carduus",
+                                   "PART_EATEN": [
+                                                  {
+                                                  "name": "Leaves",
+                                                  "HEIGHT": [
+                                                             {
+                                                             "name": "0m"
+                                                             },
+                                                             {
+                                                             "name": "0.1-2m"
+                                                             },
+                                                             {
+                                                             "name": "2-5m"
+                                                             },
+                                                             {
+                                                             "name": "5-10m"
+                                                             },
+                                                             {
+                                                             "name": "10-20m"
+                                                             },
+                                                             {
+                                                             "name": ">20m"
+                                                             }
+                                                             ]
+                                                  },
+                                                  {
+                                                  "name": "Stem",
+                                                  "HEIGHT": [
+                                                             {
+                                                             "name": "0m"
+                                                             },
+                                                             {
+                                                             "name": "0.1-2m"
+                                                             },
+                                                             {
+                                                             "name": "2-5m"
+                                                             },
+                                                             {
+                                                             "name": "5-10m"
+                                                             },
+                                                             {
+                                                             "name": "10-20m"
+                                                             },
+                                                             {
+                                                             "name": ">20m"
+                                                             }
+                                                             ]
+                                                  }
+                                                  ]
+                                   },
+                                   {
+                                   "name": "Celery",
+                                   "PART_EATEN": [
+                                                  {
+                                                  "name": "Stem",
+                                                  "HEIGHT": [
+                                                             {
+                                                             "name": "0m"
+                                                             },
+                                                             {
+                                                             "name": "0.1-2m"
+                                                             },
+                                                             {
+                                                             "name": "2-5m"
+                                                             },
+                                                             {
+                                                             "name": "5-10m"
+                                                             },
+                                                             {
+                                                             "name": "10-20m"
+                                                             },
+                                                             {
+                                                             "name": ">20m"
+                                                             }
+                                                             ]
+                                                  }
+                                                  ]
+                                   },
+                                   {
+                                   "name": "Galium",
+                                   "PART_EATEN": [
+                                                  {
+                                                  "name": "Leaves",
+                                                  "HEIGHT": [
+                                                             {
+                                                             "name": "0m"
+                                                             },
+                                                             {
+                                                             "name": "0.1-2m"
+                                                             },
+                                                             {
+                                                             "name": "2-5m"
+                                                             },
+                                                             {
+                                                             "name": "5-10m"
+                                                             },
+                                                             {
+                                                             "name": "10-20m"
+                                                             },
+                                                             {
+                                                             "name": ">20m"
+                                                             }
+                                                             ]
+                                                  }
+                                                  ]
+                                   },
+                                   {
+                                   "name": "Nettles",
+                                   "PART_EATEN": [
+                                                  {
+                                                  "name": "Leaves",
+                                                  "HEIGHT": [
+                                                             {
+                                                             "name": "0m"
+                                                             },
+                                                             {
+                                                             "name": "0.1-2m"
+                                                             },
+                                                             {
+                                                             "name": "2-5m"
+                                                             },
+                                                             {
+                                                             "name": "5-10m"
+                                                             },
+                                                             {
+                                                             "name": "10-20m"
+                                                             },
+                                                             {
+                                                             "name": ">20m"
+                                                             }
+                                                             ]
+                                                  }
+                                                  ]
+                                   }
+                                   ]
+                     },
+                     {
+                     "name": "Grooming",
+                     "Groomee_ID": [
+                                    {
+                                    "name": "_ID",
+                                    "HEIGHT": [
+                                               {
+                                               "name": "0m"
+                                               },
+                                               {
+                                               "name": "0.1-2m"
+                                               },
+                                               {
+                                               "name": "2-5m"
+                                               },
+                                               {
+                                               "name": "5-10m"
+                                               },
+                                               {
+                                               "name": "10-20m"
+                                               },
+                                               {
+                                               "name": ">20m"
+                                               }
+                                               ]
+                                    }
+                                    ]
+                     },
+                     {
+                     "name": "Self-grooming",
+                     "HEIGHT": [
+                                {
+                                "name": "0m"
+                                },
+                                {
+                                "name": "0.1-2m"
+                                },
+                                {
+                                "name": "2-5m"
+                                },
+                                {
+                                "name": "5-10m"
+                                },
+                                {
+                                "name": "10-20m"
+                                },
+                                {
+                                "name": ">20m"
+                                }
+                                ]
+                     },
+                     {
+                     "name": "Moving",
+                     "HEIGHT": [
+                                {
+                                "name": "0m"
+                                },
+                                {
+                                "name": "0.1-2m"
+                                },
+                                {
+                                "name": "2-5m"
+                                },
+                                {
+                                "name": "5-10m"
+                                },
+                                {
+                                "name": "10-20m"
+                                },
+                                {
+                                "name": ">20m"
+                                }
+                                ]
+                     },
+                     {
+                     "name": "Playing",
+                     "HEIGHT": [
+                                {
+                                "name": "0m"
+                                },
+                                {
+                                "name": "0.1-2m"
+                                },
+                                {
+                                "name": "2-5m"
+                                },
+                                {
+                                "name": "5-10m"
+                                },
+                                {
+                                "name": "10-20m"
+                                },
+                                {
+                                "name": ">20m"
+                                }
+                                ]
+                     },
+                     {
+                     "name": "Resting",
+                     "HEIGHT": [
+                                {
+                                "name": "0m"
+                                },
+                                {
+                                "name": "0.1-2m"
+                                },
+                                {
+                                "name": "2-5m"
+                                },
+                                {
+                                "name": "5-10m"
+                                },
+                                {
+                                "name": "10-20m"
+                                },
+                                {
+                                "name": ">20m"
+                                }
+                                ]
+                     }
+                     ]
+    },
+    "solo": {
+        "TYPE": [
+                 {
+                 "name": "BEHAVIOR",
+                 "BEHAVIOR": [
+                              {
+                              "name": "SGRM"
+                              },
+                              {
+                              "name": "SPLA"
+                              }
+                              ]
+                 },
+                 {
+                 "name": "HEALTH",
+                 "SYMPTOM": [
+                             {
+                             "name": "RESPIRATORY",
+                             "SYMPTOM2": [
+                                          {
+                                          "name": "COUGH"
+                                          },
+                                          {
+                                          "name": "NASAL DISCHARGE"
+                                          },
+                                          {
+                                          "name": "SNEEZE"
+                                          }
+                                          ]
+                             },
+                             {
+                             "name": "WOUND",
+                             "SEVERITY": [
+                                          {
+                                          "name": "MILD"
+                                          },
+                                          {
+                                          "name": "MODERATE"
+                                          },
+                                          {
+                                          "name": "SEVERE"
+                                          }
+                                          ]
+                             }
+                             ]
+                 }
+                ]
+            }
+}
